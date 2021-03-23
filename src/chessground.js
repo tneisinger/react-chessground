@@ -31,6 +31,7 @@ export default class Chessground extends React.Component {
     onDropNewPiece: PropTypes.func,
     onSelect: PropTypes.func,
     items: PropTypes.object,
+    events: PropTypes.object,
     drawable: PropTypes.object
   }
 
